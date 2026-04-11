@@ -9,7 +9,6 @@ const RELATED_SITES = [
   { name: "マネーノート", url: "https://money-note-jp.vercel.app" },
   { name: "NISAノート", url: "https://nisa-note-jp.vercel.app" },
   { name: "節約LAB", url: "https://saving-lab-jp.vercel.app" },
-
 ]
 
 export default function RelatedSites() {
@@ -46,7 +45,6 @@ export default function RelatedSites() {
               fontSize: '0.8rem',
               color: '#495057',
               textDecoration: 'none',
-              transition: 'all 0.2s'
             }}
           >
             {site.name}
